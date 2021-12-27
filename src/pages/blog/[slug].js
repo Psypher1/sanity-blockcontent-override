@@ -54,7 +54,7 @@ const Heading = ({ children }) => (
 );
 
 const Paragraph = ({ children }) => (
-  <p className="text-md mb-6 leading-relaxed">{children}</p>
+  <p className="text-md mb-6 text-indigo-900 leading-relaxed">{children}</p>
 );
 
 export default function PostPage({ post }) {
